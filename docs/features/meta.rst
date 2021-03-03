@@ -4,7 +4,7 @@
 Setup social metatags rendering
 ###############################
 
-djangocms-blog implements `django-meta <https://github.com/nephila/django-meta>`_ and it come ready to provide a
+djangocms-blog implements `django-meta <https://github.com/nephila/django-meta>`_ and it comes ready to provide a
 fairly complete social meta tags set.
 
 Custom metatags are rendered on the blog post detail page only, while on the list page (which is a basically django CMS page)
