@@ -12,7 +12,7 @@ Blog comes with four different styles of permalinks styles:
 * Category: ``CATEGORY/SLUG``
 * Just slug: ``SLUG``
 
-As all the styles are loaded in the urlconf, the latter two does not allow
+As all the styles are loaded in the urlconf, the latter two do not allow
 to have CMS pages beneath the page the blog is attached to. If you want to
 do this, you have to override the default urlconfs by setting something
 like the following in the project settings:
@@ -28,6 +28,6 @@ like the following in the project settings:
 
 And change ``post/`` with the desired prefix.
 
-.. warning:: Version 1.2 introduce a breaking change as it drops ``url`` function in favour of ``path``.
-             If you have customized the urls as documented above you **must** update the custom urlconf to path-based
+.. warning:: Version 1.2 introduces a breaking change as it drops ``url`` function in favour of ``path``.
+             If you have customized the urls as documented above, you **must** update the custom urlconf to path-based
              patterns.
